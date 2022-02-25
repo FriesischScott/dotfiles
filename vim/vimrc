@@ -11,7 +11,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
-Plug 'drewtempelmeyer/palenight.vim'
+Plug 'patstockwell/vim-monokai-tasty'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'JuliaEditorSupport/julia-vim'
 
@@ -23,13 +23,12 @@ set laststatus=2
 " toggle nerdtree
 map <C-o> :NERDTreeToggle<CR>
 
-" use palenight
-set background=dark
-colorscheme palenight
+" use monokai theme
+let g:vim_monokai_tasty_italic = 1
+colorscheme vim-monokai-tasty
 let g:lightline = {
-      \ 'colorscheme': 'palenight',
+      \ 'colorscheme': 'monokai_tasty',
       \ }
-let g:palenight_terminal_italics=1
 if (has("termguicolors"))
   set termguicolors
 endif
