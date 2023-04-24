@@ -5,8 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.vim: vim
-    ~/.vimrc: vim/vimrc
+    ~/.zsh_plugins.txt: zsh/.zsh_plugins.txt
     ~/.zshrc: zsh/zshrc
 
 - shell:
