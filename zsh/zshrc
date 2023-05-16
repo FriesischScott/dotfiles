@@ -9,6 +9,9 @@ fi
 
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 
+autoload -Uz compinit
+compinit
+
 antidote load
 
 SPACESHIP_PROMPT_ORDER=(
