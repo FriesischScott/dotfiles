@@ -2,11 +2,13 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~", "~/.config"]
 
 - link:
-    ~/.zsh_plugins.txt: zsh/.zsh_plugins.txt
-    ~/.zshrc: zsh/zshrc
+    # ~/.zsh_plugins.txt: zsh/.zsh_plugins.txt
+    ~/.zprofile: zsh/.zprofile
+    ~/.zshenv: zsh/.zshenv
+    ~/.config/zsh: zsh
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
