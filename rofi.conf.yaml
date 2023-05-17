@@ -2,10 +2,10 @@
     link:
       relink: true
 
-- clean: ['~/.config/']
+- clean: ["~/.config/"]
 
 - link:
     ~/.config/rofi: rofi
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
