@@ -3,11 +3,9 @@
       relink: true
       create: true
 
-- clean: ["~", "~/.julia/config"]
+- clean: ["~/.julia/"]
 
 - link:
-    ~/.vim: vim
-    ~/.vimrc: vim/vimrc
     ~/.julia/config/startup.jl: julia/startup.jl
 
 - shell:
