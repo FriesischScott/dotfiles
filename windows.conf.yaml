@@ -18,6 +18,7 @@
     ~/.vimrc: vim/vimrc
     ~/.julia/config/startup.jl: julia/startup.jl
     ~/.latexmkrc: latex/latexmkrc
+    ~/themes: pwsh/themes
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
