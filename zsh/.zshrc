@@ -61,12 +61,3 @@ bindkey	"^[3;5~"	delete-char
 
 # reload configurations
 alias reload="exec ${SHELL} -l"
-
-# >>> juliaup initialize >>>
-
-# !! Contents within this block are managed by juliaup !!
-
-path=('/home/behrensd/.juliaup/bin' $path)
-export PATH
-
-# <<< juliaup initialize <<<
