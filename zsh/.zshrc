@@ -59,5 +59,7 @@ alias la='ls -lAh'
 bindkey	"^[[3~"		delete-char
 bindkey	"^[3;5~"	delete-char
 
+bindkey "^R" history-incremental-search-backward
+
 # reload configurations
 alias reload="exec ${SHELL} -l"
