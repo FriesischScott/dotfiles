@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: [ "~/.config/ghostty"]
+
+- link:
+    ~/.config/ghostty/config: ghostty/config
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
