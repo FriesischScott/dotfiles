@@ -56,6 +56,8 @@ alias ll='ls -lh'
 alias la='ls -lAh'
 
 # fix delete key
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
 bindkey	"^[[3~"		delete-char
 bindkey	"^[3;5~"	delete-char
 
