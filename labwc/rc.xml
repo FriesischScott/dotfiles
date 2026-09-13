@@ -31,6 +31,11 @@
         <!-- Terminal -->
         <keybind key="C-A-t"><action name="Execute"><command>ghostty</command></action></keybind>
     </keyboard>
+    <mouse>
+        <context name="Root">
+            <mousebind button="Left" action="Press" />
+        </context>
+    </mouse>
 
 </labwc_config>
 
