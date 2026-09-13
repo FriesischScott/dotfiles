@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: [ "~/.config"]
+
+- link:
+    ~/.config/labwc/rc.xml: labwc/rc.xml
+    ~/.config/labwc/environment: labwc/environment
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]

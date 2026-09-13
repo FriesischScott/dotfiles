@@ -1,0 +1,5 @@
+XKB_DEFAULT_LAYOUT=gb
+
+CURSOR_THEME=breeze_cursors
+
+WLR_RENDERER=vulkan
