@@ -1,5 +1,7 @@
 font-family = FiraCode Nerd Font Mono
-theme = Monokai Pro Machine
+theme = noctalia
 
 shell-integration-features = no-cursor
 cursor-invert-fg-bg
+
+gtk-single-instance = false
