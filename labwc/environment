@@ -4,3 +4,7 @@ XKB_DEFAULT_OPTIONS=compose:rctrl
 CURSOR_THEME=breeze_cursors
 
 WLR_RENDERER=vulkan
+
+GTK_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+#XMODIFIERS="@im=ibus"
