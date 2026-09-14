@@ -1,4 +1,5 @@
 XKB_DEFAULT_LAYOUT=gb
+XKB_DEFAULT_OPTIONS=compose:rctrl
 
 CURSOR_THEME=breeze_cursors
 
