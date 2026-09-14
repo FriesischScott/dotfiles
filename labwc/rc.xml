@@ -32,6 +32,7 @@
         <keybind key="C-A-t"><action name="Execute"><command>ghostty</command></action></keybind>
     </keyboard>
     <mouse>
+        <default />
         <context name="Root">
             <mousebind button="Left" action="Press" />
         </context>
